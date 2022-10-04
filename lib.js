@@ -1,18 +1,7 @@
-const square = (n) => {
-    return n * n;
-}
+const square = (n) => Math.pow(n, 2);
 
-const fahrenheit = (celsius) => {
-    return (celsius * 1.8) + 32;
-}
+const fahrenheit = (celsius) => (celsius * 1.8) + 32;
 
-const rectangleArea = (a, b) => {
-    return area = a * b;
-}
+const rectangleArea = (a, b) =>  area = a * b;
 
-const isPalindrome = (str) => {
-    const convertedStr = str.split('').reverse().join('');
-    
-    return str.toLowerCase() === convertedStr.toLowerCase() ? true : false;
-}
- 
+const isPalindrome = (str) => str.toLowerCase() === str.toLowerCase().split('').reverse().join('') ? true : false;
