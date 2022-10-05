@@ -4,4 +4,4 @@ const fahrenheit = (celsius) => (celsius * 1.8) + 32;
 
 const rectangleArea = (a, b) => a * b;
 
-const isPalindrome = (str) => str.toLowerCase().replace(" ","") === str.toLowerCase().replace(" ","").split('').reverse().join('');
+const isPalindrome = (str) => str.toLowerCase() === str.toLowerCase().split('').reverse().join('');
